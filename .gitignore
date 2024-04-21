@@ -1,0 +1,5 @@
+/.DS_Store
+
+# Ignore MySQL data directory
+/docker-config/mysql/data/
+
