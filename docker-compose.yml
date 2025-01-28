@@ -44,7 +44,7 @@ services:
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     # Apple Chipの場合、コメントアウト解除する
-    # platform: linux/amd64
+    platform: linux/amd64
     # container_name: YOUR_CONTAINER_NAME_pma
     environment:
       - PMA_ARBITRARY=1
